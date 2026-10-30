@@ -125,5 +125,4 @@ One unified checkpoint handles all modes: `text2world`, `image2world`
 | `externally-managed-environment` on `pip install` | don't use system pip — work inside the uv `.venv` |
 | CUDA OOM | add the `--offload-*` flags |
 
-## License
-MIT
+
