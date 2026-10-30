@@ -1,14 +1,15 @@
-# NVIDIA Cosmos on DGX Spark (GB10) — Text-to-Video World Model Deployment
+# NVIDIA Cosmos on Dell Pro Max with GB10 — Text-to-Video World Model Deployment
 
 Deploying **NVIDIA Cosmos Predict 2.5** (a Physical AI *world foundation model*) on a
-**DGX Spark** (GB10 Grace-Blackwell, aarch64, sm_121) and generating video from a text
+**DGX Spark** (Dell Pro Max with GB10, aarch64, sm_121) and generating video from a text
 prompt — with every missing package and aarch64 / CUDA-13 fix I hit along the way.
 
 ![Robot-arm pick-and-place generated on GB10](robot-arm-demo.gif)
-*Industrial robot-arm pick-and-place — text-to-video generated locally on a DGX Spark (GB10) with Cosmos Predict 2.5 (2B).*
+
+*Industrial robot-arm pick-and-place — text-to-video generated locally on a Dell Pro Max with GB10 with Cosmos Predict 2.5 (2B).*
 
 ## Baseline
-- NVIDIA DGX Spark (GB10 Grace-Blackwell), aarch64
+- NVIDIA DGX Spark (Dell Pro Max with GB10), aarch64
 - DGX OS (Ubuntu 24.04), NVIDIA driver 580.x, CUDA 13.0
 - Cosmos Predict 2.5 — 2B model, BF16, ~32.5 GB VRAM (fits the Spark's ~90 GB)
 
